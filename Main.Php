@@ -16,9 +16,9 @@
 <body>
   <?php
     session_start();
-    $db=mysqli_connect("localhost", "f0613043_cakestoorder", "REZERO") or die (mysqli_connect_error());
+    $db=mysqli_connect("localhost", "DarkZero", "REZERO") or die (mysqli_connect_error());
     mysqli_query($db, 'SET NAMES utf8_general_ci');
-    mysqli_select_db($db, "f0613043_cakestoorder") or die (mysqli_connect_error());
+    mysqli_select_db($db, "cake_site_content") or die (mysqli_connect_error());
   ?>
   <div class="menu">
     <div class="menu-wrap">
@@ -28,10 +28,10 @@
       </div>
       <div class="navigation">
         <ul class="ul_navig">
-          <li class="ul_navig_li"><a href="about_the_project.php">О Проекте</a></li>
-          <li class="ul_navig_li"><a href="catalog.php">Торты</a></li>
-          <li class="ul_navig_li"><a href="contacts.php">Контакты</a></li>
-          <li class="ul_navig_li"><a href="raiting.php">Рейтинг</a></li>
+          <li class="ul_navig_li"><a href="Php/about_the_project.php">О Проекте</a></li>
+          <li class="ul_navig_li"><a href="Php/catalog.php">Торты</a></li>
+          <li class="ul_navig_li"><a href="Php/contacts.php">Контакты</a></li>
+          <li class="ul_navig_li"><a href="Php/raiting.php">Рейтинг</a></li>
         </ul>
       </div>
       <label class="label_menu_icon" for="checkbox">
