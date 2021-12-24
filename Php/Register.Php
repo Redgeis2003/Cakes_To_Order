@@ -16,9 +16,9 @@
 <body>
   <?php
     session_start();
-    $db=mysqli_connect("localhost", "DarkZero", "REZERO") or die (mysqli_connect_error());
+    $db=mysqli_connect("localhost", "f0613043_cakestoorder", "REZERO") or die (mysqli_connect_error());
     mysqli_query($db, 'SET NAMES utf8_general_ci');
-    mysqli_select_db($db, "cake_site_content") or die (mysqli_connect_error());
+    mysqli_select_db($db, "f0613043_cakestoorder") or die (mysqli_connect_error());
     if (!$db){
       die('Произошла ошибка в базе данных!!!');
     }
@@ -33,7 +33,7 @@
         <ul class="ul_navig">
           <li class="ul_navig_li"><a href="about_the_project.php">О Проекте</a></li>
           <li class="ul_navig_li"><a href="catalog.php">Торты</a></li>
-          <li class="ul_navig_li"><a href="Contacts.Php">Контакты</a></li>
+          <li class="ul_navig_li"><a href="contacts.php">Контакты</a></li>
           <li class="ul_navig_li"><a href="raiting.php">Рейтинг</a></li>
         </ul>
       </div>
@@ -51,7 +51,7 @@
       <ul class="list_ul">
         <li class="list_ul_li"><a href="about_the_project.php"> О Проекте </a></li> 
         <li class="list_ul_li"><a href="catalog.php"> Торты </a></li>
-        <li class="list_ul_li"><a href="Contacts.Php"> Контакты </a></li>
+        <li class="list_ul_li"><a href="contacts.php"> Контакты </a></li>
         <li class="list_ul_li"><a href="raiting.php"> Рейтинг </a></li>
       </ul>
     </div>
@@ -126,7 +126,7 @@
             
         ?>
             <h6>Нажмите сюда, если хотитет вернуться на прошлую страницу</h6>
-            <button onclick="history.back();" value="Назад"></button>
+            <button onclick="history.back();">Назад</button>
           </center>
           <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
@@ -157,7 +157,7 @@
           <ul class="ul_cakes">
             <li class="ul_cakes_li"><a href="raiting.php">Рейтинг</a></li>
             <li class="ul_cakes_li"><a href="about_the_project.php">О Проекте</a></li>
-            <li class="ul_cakes_li"><a href="Contacts.Php">Контакты</a></li>
+            <li class="ul_cakes_li"><a href="contacts.php">Контакты</a></li>
           </ul>
         </div>
         <div class="production">

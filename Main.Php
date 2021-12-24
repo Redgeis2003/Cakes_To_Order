@@ -16,9 +16,9 @@
 <body>
   <?php
     session_start();
-    $db=mysqli_connect("localhost", "DarkZero", "REZERO") or die (mysqli_connect_error());
+    $db=mysqli_connect("localhost", "f0613043_cakestoorder", "REZERO") or die (mysqli_connect_error());
     mysqli_query($db, 'SET NAMES utf8_general_ci');
-    mysqli_select_db($db, "cake_site_content") or die (mysqli_connect_error());
+    mysqli_select_db($db, "f0613043_cakestoorder") or die (mysqli_connect_error());
   ?>
   <div class="menu">
     <div class="menu-wrap">

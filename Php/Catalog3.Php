@@ -16,9 +16,9 @@
 <body>
   <?php
     session_start();
-    $db=mysqli_connect("localhost", "DarkZero", "REZERO") or die (mysqli_connect_error());
+    $db=mysqli_connect("localhost", "f0613043_cakestoorder", "REZERO") or die (mysqli_connect_error());
     mysqli_query($db, 'SET NAMES utf8_general_ci');
-    mysqli_select_db($db, "cake_site_content") or die (mysqli_connect_error());
+    mysqli_select_db($db, "f0613043_cakestoorder") or die (mysqli_connect_error());
     if (!$db){
         die('Произошла ошибка в базе данных!!!');
     }
@@ -33,7 +33,7 @@
         <ul class="ul_navig">
           <li class="ul_navig_li"><a href="about_the_project.php">О Проекте</a></li>
           <li class="ul_navig_li"><a href="catalog.php">Торты</a></li>
-          <li class="ul_navig_li"><a href="Contacts.Php">Контакты</a></li>
+          <li class="ul_navig_li"><a href="contacts.php">Контакты</a></li>
           <li class="ul_navig_li"><a href="raiting.php">Рейтинг</a></li>
         </ul>
       </div>
@@ -51,7 +51,7 @@
       <ul class="list_ul">
         <li class="list_ul_li"><a href="about_the_project.php"> О Проекте </a></li> 
         <li class="list_ul_li"><a href="catalog.php"> Торты </a></li>
-        <li class="list_ul_li"><a href="Contacts.Php"> Контакты </a></li>
+        <li class="list_ul_li"><a href="contacts.php"> Контакты </a></li>
         <li class="list_ul_li"><a href="raiting.php"> Рейтинг </a></li>
       </ul>
     </div>
@@ -106,16 +106,16 @@
       <div class="catalog_menu">
           <h5>Категория Тортов</h5>
           <ul>
-            <form method="POST" action="Catalog1.Php">
+            <form method="POST" action="catalog1.php">
               <li><input type="submit" name="search_button1" value="Шоколадные Торты"></li>
             </form>
-            <form method="POST" action="Catalog2.Php">
+            <form method="POST" action="catalog2.php">
               <li><input type="submit" name="search_button2" value="Сливочные Торты"></li>
             </form>
-            <form method="POST" action="Catalog3.Php">
+            <form method="POST" action="catalog3.php">
               <li><input type="submit" name="search_button3" value="Бисквитные Торты"></li>
             </form>
-            <form method="POST" action="Catalog4.Php">
+            <form method="POST" action="catalog4.php">
               <li><input type="submit" name="search_button4" value="Медовые Торты"></li>
             </form>
           </ul>
@@ -219,7 +219,7 @@
           <ul class="ul_cakes">
             <li class="ul_cakes_li"><a href="raiting.php">Рейтинг</a></li>
             <li class="ul_cakes_li"><a href="about_the_project.php">О Проекте</a></li>
-            <li class="ul_cakes_li"><a href="Contacts.Php">Контакты</a></li>
+            <li class="ul_cakes_li"><a href="contacts.php">Контакты</a></li>
           </ul>
         </div>
         <div class="production">
