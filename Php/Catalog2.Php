@@ -27,14 +27,14 @@
     <div class="menu-wrap">
       <input type="checkbox" id="checkbox">
       <div class="logo_title2">
-          <a href="../Main.Php"><img class="logo_title_img2" src="../Assets/Icons/Иконки Дополнительные/Главная Икона Сайта.png" alt="Main_Cake"></a>
+          <a href="../main.php"><img class="logo_title_img2" src="../Assets/Icons/Иконки Дополнительные/Главная Икона Сайта.png" alt="Main_Cake"></a>
       </div>
       <div class="navigation">
         <ul class="ul_navig">
-          <li class="ul_navig_li"><a href="About_The_Project.Php">О Проекте</a></li>
-          <li class="ul_navig_li"><a href="Catalog.Php">Торты</a></li>
+          <li class="ul_navig_li"><a href="about_the_project.php">О Проекте</a></li>
+          <li class="ul_navig_li"><a href="catalog.php">Торты</a></li>
           <li class="ul_navig_li"><a href="Contacts.Php">Контакты</a></li>
-          <li class="ul_navig_li"><a href="Raiting.Php">Рейтинг</a></li>
+          <li class="ul_navig_li"><a href="raiting.php">Рейтинг</a></li>
         </ul>
       </div>
       <label class="label_menu_icon" for="checkbox">
@@ -45,20 +45,20 @@
 
   <div class="nav">
     <div class="logo_title">
-      <a href="../Main.Php"><img class="logo_title_img" src="../Assets/Icons/Иконки Дополнительные/Главная Икона Сайта.png" alt="Main_Cake"></a>
+      <a href="../main.php"><img class="logo_title_img" src="../Assets/Icons/Иконки Дополнительные/Главная Икона Сайта.png" alt="Main_Cake"></a>
     </div>
     <div class="list">
       <ul class="list_ul">
-        <li class="list_ul_li"><a href="About_The_Project.Php"> О Проекте </a></li> 
-        <li class="list_ul_li"><a href="Catalog.Php"> Торты </a></li>
+        <li class="list_ul_li"><a href="about_the_project.php"> О Проекте </a></li> 
+        <li class="list_ul_li"><a href="catalog.php"> Торты </a></li>
         <li class="list_ul_li"><a href="Contacts.Php"> Контакты </a></li>
-        <li class="list_ul_li"><a href="Raiting.Php"> Рейтинг </a></li>
+        <li class="list_ul_li"><a href="raiting.php"> Рейтинг </a></li>
       </ul>
     </div>
     <div id="zatemnenie">
       <div id="okno">
           <h5>Окно Регистраций</h5><br>
-          <form action="Register.Php" method="post">
+          <form action="register.php" method="post">
             <input type="text" name="user_name" placeholder="Имя Пользователя" required><br>
             <input type="text" name="user_login" placeholder="Логин Пользователя" required><br>
             <input type="email" name="user_email" placeholder="Электронная Почта" required><br>
@@ -75,7 +75,7 @@
       <div id="zatemnenie2">
         <div id="okno2">
           <h5>Окно Авторизаций</h5><br>
-          <form action="Automation.Php" method="post">
+          <form action="automation.php" method="post">
             <input type="text" name="user_login" placeholder="Логин" required><br>
             <input type="password" name="user_password" placeholder="Пароль" required><br>
             <input type="submit" name="add" value="Войти"><br>
@@ -140,7 +140,7 @@
         <br>
         <!-- <div class="catalog_search">
           <center>
-          <form method="POST" action="Catalog.Php">
+          <form method="POST" action="catalog.php">
             <table>
             <tr>
               <td>
@@ -200,7 +200,7 @@
       <div id="footer">
         <div class="production">
           <div class="logo_title">
-            <a href="../Main.Php"><img class="logo_title_img" src="../Assets/Icons/Иконки Дополнительные/Главная Икона Сайта.png" alt="Main_Cake"></a>
+            <a href="../main.php"><img class="logo_title_img" src="../Assets/Icons/Иконки Дополнительные/Главная Икона Сайта.png" alt="Main_Cake"></a>
           </div>
           <p>© 2021 CakesToOrder</p>
           <p><a class="politic_confidentional" href="#">Политика Кофиденциальности</a></p>
@@ -208,17 +208,17 @@
         <div class="production">
           <p class="parag_er">Продукция</p>
           <ul class="ul_cakes">
-            <li class="ul_cakes_li"><a href="Catalog.Php">Шоколадные Торты</a></li>
-            <li class="ul_cakes_li"><a href="Catalog.Php">Сливочные Торты</a></li>
-            <li class="ul_cakes_li"><a href="Catalog.Php">Бесквитные Торты</a></li>
-            <li class="ul_cakes_li"><a href="Catalog.Php">Медовые Торты</a></li>
+            <li class="ul_cakes_li"><a href="catalog.php">Шоколадные Торты</a></li>
+            <li class="ul_cakes_li"><a href="catalog.php">Сливочные Торты</a></li>
+            <li class="ul_cakes_li"><a href="catalog.php">Бесквитные Торты</a></li>
+            <li class="ul_cakes_li"><a href="catalog.php">Медовые Торты</a></li>
           </ul>
         </div>
         <div class="production">
           <p class="parag_er">О Нас</p>
           <ul class="ul_cakes">
-            <li class="ul_cakes_li"><a href="Raiting.Php">Рейтинг</a></li>
-            <li class="ul_cakes_li"><a href="About_The_Project.Php">О Проекте</a></li>
+            <li class="ul_cakes_li"><a href="raiting.php">Рейтинг</a></li>
+            <li class="ul_cakes_li"><a href="about_the_project.php">О Проекте</a></li>
             <li class="ul_cakes_li"><a href="Contacts.Php">Контакты</a></li>
           </ul>
         </div>
