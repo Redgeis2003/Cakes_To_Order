@@ -27,7 +27,7 @@
     <div class="menu-wrap">
       <input type="checkbox" id="checkbox">
       <div class="logo_title2">
-          <a href="../main.php"><img class="logo_title_img2" src="../Assets/Icons/Иконки Дополнительные/Главная Икона Сайта.png" alt="Main_Cake"></a>
+          <a href="main.php"><img class="logo_title_img2" src="../Assets/Icons/Иконки Дополнительные/Главная Икона Сайта.png" alt="Main_Cake"></a>
       </div>
       <div class="navigation">
         <ul class="ul_navig">
@@ -45,7 +45,7 @@
 
   <div class="nav">
     <div class="logo_title">
-      <a href="../main.php"><img class="logo_title_img" src="../Assets/Icons/Иконки Дополнительные/Главная Икона Сайта.png" alt="Main_Cake"></a>
+      <a href="main.php"><img class="logo_title_img" src="../Assets/Icons/Иконки Дополнительные/Главная Икона Сайта.png" alt="Main_Cake"></a>
     </div>
     <div class="list">
       <ul class="list_ul">
@@ -75,6 +75,7 @@
       <div id="zatemnenie2">
         <div id="okno2">
           <h5>Окно Авторизаций</h5><br>
+          <br><br><br>
           <form action="automation.php" method="post">
             <input type="text" name="user_login" placeholder="Логин" required><br>
             <input type="password" name="user_password" placeholder="Пароль" required><br>
@@ -87,9 +88,9 @@
         </div>
       </div>
       <?php
-        echo '<div class="user_okno">';
+        echo '<a href="#"><div class="user_okno">';
         echo ''.$_SESSION['user_login'].'';
-        echo '</div>';
+        echo '</div></a>';
       ?>
       <a href="#zatemnenie"><div class="zat_okno">
         Регистрация
@@ -99,6 +100,37 @@
       </div></a>
   </div>
 
+      <div id="zatemnenie3">
+        <div div id="okno3">
+          <h5>Окно Регистраций</h5><br>
+          <form action="register.php" method="post">
+            <input type="text" name="user_name" placeholder="Имя Пользователя" required><br>
+            <input type="text" name="user_login" placeholder="Логин Пользователя" required><br>
+            <input type="email" name="user_email" placeholder="Электронная Почта" required><br>
+            <input type="number" name="user_phone" placeholder="Номер Телефон" required><br>
+            <input type="password" name="user_password" placeholder="Пароль" required><br>
+            <input type="submit" name="add" value="Войти"><br>
+            <input type="reset" name="b2" value="Очистить"><br>
+          </form> 
+          <br>
+          <p>У вас есть аккаунт?, попробуйте <a href="#zatemnenie4"><br>авторизоваться</a></p>
+          <a href="#" class="close3">Закрыть Окно</a>
+        </div>
+      </div>
+      <div id="zatemnenie4">
+        <div id="okno4">
+          <h5>Окно Авторизаций</h5><br>
+          <form action="automation.php" method="post">
+            <input type="text" name="user_login" placeholder="Логин" required><br>
+            <input type="password" name="user_password" placeholder="Пароль" required><br>
+            <input type="submit" name="add" value="Войти"><br>
+            <input type="reset" name="b2" value="Очистить">
+            <br>  
+          </form><br>
+          <p>У вас нет аккаунт?, попробуйте <a href="#zatemnenie3"><br>зарегестрироваться</a></p>
+          <a href="#" class="close4">Закрыть Окно</a>
+        </div>
+      </div>
 
   <div class="wrapper">
         <div id="content">
@@ -138,7 +170,7 @@
       <div id="footer">
         <div class="production">
           <div class="logo_title">
-            <a href="../main.php"><img class="logo_title_img" src="../Assets/Icons/Иконки Дополнительные/Главная Икона Сайта.png" alt="Main_Cake"></a>
+            <a href="main.php"><img class="logo_title_img" src="../Assets/Icons/Иконки Дополнительные/Главная Икона Сайта.png" alt="Main_Cake"></a>
           </div>
           <p>© 2021 CakesToOrder</p>
           <p><a class="politic_confidentional" href="#">Политика Кофиденциальности</a></p>

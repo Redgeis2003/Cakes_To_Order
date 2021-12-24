@@ -35,7 +35,7 @@ h6{
 }
 #okno {
     display: block;
-    width: 50%;
+    width: 60%;
     height: 76%;
     padding: 15px;
     border: 10px solid#CD0000;
@@ -97,7 +97,7 @@ h6{
     background-color: #000000;
     margin-bottom: 15px;
     margin-top: 20px;
-    margin-right: 18px;
+    margin-right: 10px;
     text-align: center;
     margin-top: 16px;
 }
@@ -131,12 +131,13 @@ h6{
 }
 #okno2 {
     display: block;
-    width: 50%;
+    width: 60%;
     height: 76%;
     padding: 15px;
     border: 10px solid#CD0000;
     border-radius: 10px;
     text-align: center;
+    color: white;
     top: 0;
     right: 0;
     bottom: 0;
@@ -154,13 +155,14 @@ h6{
 #zatemnenie2:target {display: block;} .close2 {
     display: inline-block;
     border: 1px solid #EDFF21;
+    color: #ff0000;
     padding: 0 12px;
     margin: 10px;
     text-decoration: none;
-    background: #ff0000;
+    background: #EDFF21;
     font-size: 14pt;
     cursor:pointer;
-    margin-top: 60px;
+    margin-top: -36px;
     border-radius: 10px;
 }
 .okno2 input{
@@ -180,7 +182,7 @@ h6{
 .close2:hover{
     color: white;
     background-color: rgb(241, 39, 39);
-    border: solid 1px rgb(39, 235, 241);
+    border: solid 1px rgb(255, 255, 255);
 }
 .zat_okno2{
     width: 136px;
@@ -190,7 +192,7 @@ h6{
     background-color: #000000;
     margin-bottom: 15px;
     margin-top: 20px;
-    margin-right: 18px;
+    margin-right: -14px;
     text-align: center;
     margin-top: 16px;
 }
@@ -200,6 +202,197 @@ h6{
 }
 .zat_okno2:link, .zat_okno2:active, .zat_okno2:visited{
     background-color: aqua;
+}
+/*Окно Регистраций*/
+#zatemnenie3 {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+#okno3 p a{
+    color: red;
+}
+#okno3 p a:hover{
+    color: #EDFF21;
+}
+#okno3 {
+    display: block;
+    width: 98%;
+    height: 76%;
+    padding: 15px;
+    border: 10px solid#CD0000;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    z-index: 5000;
+}
+#okno3 input{
+    color: white;
+    background-color: transparent;
+    width: 260px;
+}
+#zatemnenie3:target {display: block;} .close3 {
+    display: inline-block;
+    border: 1px solid #EDFF21;
+    color: #ff0000;
+    padding: 0 12px;
+    margin: 10px;
+    text-decoration: none;
+    background: #EDFF21;
+    font-size: 14pt;
+    cursor:pointer;
+    margin-top: -36px;
+    border-radius: 10px;
+}
+.okno3 input{
+    width: 80%;
+    color: black;
+}
+.okno3 input:nth-child(6){
+    width: 50px;
+}
+  
+.okno3 input:hover{
+    color: #EDFF21;
+}
+.okno3 input:nth-child(6):hover{
+    background-color:#EDFF21;
+    color: white;
+}
+.close3:hover{
+    color: white;
+    background-color: rgb(241, 39, 39);
+    border: solid 1px rgb(255, 255, 255);
+}
+.zat_okno3{
+    width: 252px;
+    border-radius: 6px;
+    border: solid 2px white;
+    padding: 10px;
+    background-color: #000000;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-right: 0px;
+    text-align: center;
+    margin-top: 16px;
+}
+.zat_okno3:hover{
+    background-color: rgb(255, 0, 0);
+    color: #EDFF21;
+}
+
+#okno4 input:bover{
+    background-color: rgb(82, 21, 94);
+}
+
+
+
+
+/*Окно Войти*/
+#zatemnenie4 {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#okno4 p a{
+    color: red;
+}
+#okno4 p a:hover{
+    color: #EDFF21;
+}
+#okno4 {
+    display: block;
+    width: 98%;
+    height: 58%;
+    padding: 15px;
+    border: 10px solid#CD0000;
+    border-radius: 10px;
+    text-align: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    z-index: 5000;
+}
+#okno4 input{
+    color: white;
+    background-color: transparent;
+    width: 260px;
+}
+#zatemnenie4:target {display: block;} .close4 {
+    display: inline-block;
+    border: 1px solid #EDFF21;
+    color: #ff0000;
+    padding: 0 12px;
+    margin: 10px;
+    text-decoration: none;
+    background: #EDFF21;
+    font-size: 14pt;
+    cursor:pointer;
+    margin-top: -36px;
+    border-radius: 10px;
+}
+.okno4 input{
+    width: 80%;
+    color: black;
+}
+.okno4 input:nth-child(6){
+    width: 50px;
+}
+.okno2 input:hover{
+    color: #EDFF21;
+}
+.okno4 input:nth-child(6):hover{
+    background-color:#EDFF21;
+    color: white;
+}
+.close4:hover{
+    color: white;
+    background-color: rgb(241, 39, 39);
+    border: solid 1px rgb(255, 255, 255);
+}
+.zat_okno4{
+    width: 252px;
+    border-radius: 6px;
+    border: solid 2px white;
+    padding: 10px;
+    background-color: #000000;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-right: 0px;
+    text-align: center;
+    margin-top: 16px;
+}
+.zat_okno4:hover{
+    background-color: rgb(255, 0, 0);
+    color: #EDFF21;
+}
+.zat_okno4:link, .zat_okno4:active, .zat_okno4:visited{
+    background-color: aqua;
+}
+#okno input:hover, #okno2 input:hover, #okno3 input:hover, #okno4 input:hover{
+    border: solid 2px white;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 
@@ -264,12 +457,12 @@ h6{
     text-align: center;
 }
 .navigation .ul_navig .ul_navig_li:hover {
-    background:rgb(13, 15, 167);
-    color: #EDFF21;
+    background:rgb(0, 0, 0);
+    color: #ffffff;
 }
 .navigation .ul_navig .ul_navig_li a:hover{
-    background:rgb(13, 15, 167);
-    color: #EDFF21;
+    background:rgb(0, 0, 0);
+    color: #ffffff;
 }
 .navigation .ul_navig .ul_navig_li a {
     display: inline-block;
@@ -453,7 +646,7 @@ button:hover{
 }
 .list_ul{
     margin-top: 62px;
-    margin-left: -232px;
+    margin-left: -250px;
 }
 .list .list_ul_li {
     display: inline-block;
@@ -1362,45 +1555,9 @@ textarea{
     .wap{
         height: 220px;
     }
-    .table_basket{
-        width: 170%;
-        border: solid 2px #CD0000;
-        font-size: 10px;
-    }
-    .basket2{
-        display: none;
-    }
-    .table_basket:nth-last-child(){
-        display: none;
-    }
-    .table_basket_img{
-        width: 40px;
-        height: 60px;
-        margin-left: -5px;
-    }
-    .minus{
-        margin-left: -4px;
-        padding: 4px;
-    }
-    .plus{
-        padding: 2px;
-    }
-    .profile{
-        font-size: 0.7rem;
-    }
-    .mir_img{
-        width: 18%;
-    }
     .users_img{
         width: 25px;
         margin-bottom: -7px;
-    }
-    .block_img_history{
-        width: 80px;
-        height: 120px;
-    }
-    .profile h6{
-        font-size: 1rem;
     }
     .name_span {
         font-size: 0.8rem;
@@ -1643,53 +1800,7 @@ textarea{
 }
 
 
-
-.block_img_history{
-    background-image: url(../Assets/Image/Торт...Сливочный_6.jpg);
-    background-size: contain;
-    background-size: cover;
-    background-position: center;
-    background-size: cover;
-}
-.table_basket_img{
-    background-image: url(../Assets/Image/Торт...Сливочный_2.jpg);
-    background-size: contain;
-    background-size: cover;
-    background-position: center;
-    background-size: cover;
-}
-.table_basket_img2{
-    background-image: url(../Assets/Image/Торт\ Шоколад_7.jpg);
-    background-size: contain;
-    background-size: cover;
-    background-position: center;
-    background-size: cover;
-}
-.table_basket_img2{
-    background-color: white;
-    border-radius: 8px;
-    border: solid 2px #EDFF21;
-    width: 200px;
-    height: 120px;
-    cursor: pointer;
-    width: 100px;
-    transition: 1s all;
-    transform: scale(1);
-}
-.table_basket_img2:hover{
-    transform: scale(1.2);
-}
 @media only screen and (min-device-width: 240px) and (max-device-width: 768px){
-    .table_basket_img {
-        width: 40px;
-        height: 60px;
-        margin-left: -5px;
-    }
-    .table_basket_img2 {
-        width: 40px;
-        height: 60px;
-        margin-left: -5px;
-    }
     .slider__image{
         width: 100%;
         height: 99%;
@@ -1728,7 +1839,6 @@ textarea{
     height: 100%;
     opacity: 0;
     z-index: 1;
- 
     -webkit-transition: opacity 1s;
     -moz-transition: opacity 1s;
     -o-transition: opacity 1s;
@@ -1820,15 +1930,34 @@ textarea{
 }
 
 /*Окно Пользователя*/
-.user_okno{
-    padding-top: 18px;
+.user_okno {
+    padding-top: 15px;
     border-radius: 20px;
     color: rgb(255, 255, 255);
     border: solid 2px white;
     background-color: black;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    margin-right: 14px;
+    margin-bottom: -52px;
+    margin-top: 12px;
+    margin-right: 10px;
     padding-right: 10px;
     padding-left: 10px;
+    padding-bottom: 13px;
+}
+.user_okno:hover{
+    background-color: red;
+    color: #EDFF21;
+}
+
+@media only screen and (min-device-width: 240px) and (max-device-width: 768px){
+    .user_okno{
+        padding-top: 15px;
+        margin-bottom: -47px;
+        margin-top: -30px;
+        margin-right: 2px;
+        width: 260px;
+    }
+}
+
+.button_btn_len button{
+    width: 200px;
 }

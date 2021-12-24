@@ -27,7 +27,7 @@
     <div class="menu-wrap">
       <input type="checkbox" id="checkbox">
       <div class="logo_title2">
-          <a href="../main.php"><img class="logo_title_img2" src="../Assets/Icons/Иконки Дополнительные/Главная Икона Сайта.png" alt="Main_Cake"></a>
+          <a href="main.php"><img class="logo_title_img2" src="../Assets/Icons/Иконки Дополнительные/Главная Икона Сайта.png" alt="Main_Cake"></a>
       </div>
       <div class="navigation">
         <ul class="ul_navig">
@@ -45,7 +45,7 @@
 
   <div class="nav">
     <div class="logo_title">
-      <a href="../main.php"><img class="logo_title_img" src="../Assets/Icons/Иконки Дополнительные/Главная Икона Сайта.png" alt="Main_Cake"></a>
+      <a href="main.php"><img class="logo_title_img" src="../Assets/Icons/Иконки Дополнительные/Главная Икона Сайта.png" alt="Main_Cake"></a>
     </div>
     <div class="list">
       <ul class="list_ul">
@@ -138,7 +138,7 @@
       <div id="footer">
         <div class="production">
           <div class="logo_title">
-            <a href="../main.php"><img class="logo_title_img" src="../Assets/Icons/Иконки Дополнительные/Главная Икона Сайта.png" alt="Main_Cake"></a>
+            <a href="main.php"><img class="logo_title_img" src="../Assets/Icons/Иконки Дополнительные/Главная Икона Сайта.png" alt="Main_Cake"></a>
           </div>
           <p>© 2021 CakesToOrder</p>
           <p><a class="politic_confidentional" href="#">Политика Кофиденциальности</a></p>
