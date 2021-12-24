@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="Assets/Icons/Иконки Дополнительные/Логотип Во Вкладке.png" type="image/x-icon" />
     <link type="text/css" rel="stylesheet" href="../MaterilizeCss/Css/materialize.min.css"  media="screen,projection"/>
-    <link rel="stylesheet" href="../Css/Style.Css">
+    <link rel="stylesheet" href="../css/style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/examples/libs/simple-adaptive-slider/simple-adaptive-slider.min.css">
     <script defer src="/examples/libs/simple-adaptive-slider/simple-adaptive-slider.min.js"></script>

@@ -9,7 +9,7 @@
     <!-- Подключение Картинки Во Вкладку Заглавия -->
     <link rel="shortcut icon" href="../sitecake/Assets/Icons/Иконки Дополнительные/Логотип Во Вкладке.png" type="image/x-icon" />
     <link type="text/css" rel="stylesheet" href="../MaterilizeCss/Css/materialize.min.css"  media="screen,projection"/>
-    <link rel="stylesheet" href="../Css/Style.Css">
+    <link rel="stylesheet" href="../css/style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
     <title>Торты На Заказ</title>
 </head>
